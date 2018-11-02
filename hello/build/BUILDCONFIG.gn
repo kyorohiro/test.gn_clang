@@ -1,0 +1,4 @@
+set_default_toolchain("//build/toolchains:gcc")
+
+cflags_cc = [ "-std=c11" ]
+include_dirs = [ "//" ]
